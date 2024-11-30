@@ -1,12 +1,3 @@
---[[---------------------------------------------------------
-   Name: noah_timer_hud
-   Author : Noah
-   Desc: Timer pour prison
-   Version : 1.2
-   Last update : 01/12/2024
-   Discord : noah_ballas
------------------------------------------------------------]]
-
 Ntimer = Ntimer or {}
 Ntimer.Config = {}
 
@@ -64,3 +55,12 @@ Ntimer.Config.Materials = {
     PROCHAINE MAJ !!! 
     PROCHAINE MAJ !!! 
 */
+
+--[[---------------------------------------------------------
+   Name: noah_timer_hud
+   Author : Noah
+   Desc: Timer pour prison
+   Version : 1.2
+   Last update : 01/12/2024
+   Discord : noah_ballas
+-----------------------------------------------------------]]
