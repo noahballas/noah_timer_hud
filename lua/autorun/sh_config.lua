@@ -1,20 +1,19 @@
 Ntimer = Ntimer or {}
 Ntimer.Config = {}
 
-
-// Activer les bande noir derrière l'hud 
+// Activer les bandes noires derrière l'HUD
 Ntimer.Config.BackgroundBlack = true
 
 // Seconde pour activer une nouvelle tâche
 Ntimer.Config.Seconde = 1000
 
-// Les jobs qui vois l'hud
+// Les jobs qui voient l'HUD
 Ntimer.Config.Job = {
     ["Citizen"] = true,
     ["Chômeur"] = true
 }
 
-// Les task a faire
+// Les tâches à faire
 Ntimer.Config.TaskList = {
     "Laverie",
     "Salle de sport",
@@ -23,7 +22,7 @@ Ntimer.Config.TaskList = {
     "Effectuer des pompes"
 }
 
-// Couleur général de l'hud | https://marketplace.visualstudio.com/items?itemName=venner.vscode-glua-enhanced
+// Couleur générale de l'hud | https://marketplace.visualstudio.com/items?itemName=venner.vscode-glua-enhanced
 Ntimer.Config.Colors = {
     ["TimerBackground"] = Color(59, 1, 1),
     ["BTimerBackground"] = Color(5, 5, 5),
@@ -31,7 +30,7 @@ Ntimer.Config.Colors = {
     ["TaskText"] = Color(200, 200, 0)
 }
 
-// Modifier les icons | https://github.com/WilliamVenner/gmpublisher
+// Modifier les icônes | https://github.com/WilliamVenner/gmpublisher
 
 Ntimer.Config.Materials = {
     ["Logo"] = Material("Noah/TimerPriser/logo.png")

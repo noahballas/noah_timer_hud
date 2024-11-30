@@ -1,3 +1,13 @@
+--[[---------------------------------------------------------
+   Name: noah_timer_hud
+   Author : Noah
+   Desc: Timer pour prison
+   Version : 1.2
+   Last update : 01/12/2024
+   Discord : noah_ballas
+-----------------------------------------------------------]]
+
+
 RX = RX or function(x) return x / 1920 * ScrW() end
 RY = RY or function(y) return y / 1080 * ScrH() end
 
@@ -6,7 +16,6 @@ surface.CreateFont("Noah:Hud:Timer", {
     font = "Montserrat-Bold",
     size = RY(22),
 })
-
 surface.CreateFont("Noah:Text:Timer", {
     font = "Montserrat-Bold",
     size = RY(26),
@@ -58,6 +67,6 @@ timer.Create("Noah:TaskTimer", 1, 0, function()
     end
 end)
 
-concommand.Add("noah_force_new_task", function()
+concommand.Add("nono_force_new_task", function()
     GenerateNewTask()
 end)
