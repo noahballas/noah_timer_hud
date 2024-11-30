@@ -1,5 +1,16 @@
+--[[---------------------------------------------------------
+   Name: noah_timer_hud
+   Author : Noah
+   Desc: Timer pour prison
+   Version : 1.2
+   Last update : 01/12/2024
+   Discord : noah_ballas
+-----------------------------------------------------------]]
+
 Ntimer = Ntimer or {}
 Ntimer.Config = {}
+
+Ntimer.Config.Chomeur = "Temps libre..."
 
 // Activer les bandes noires derrière l'HUD
 Ntimer.Config.BackgroundBlack = true
@@ -30,8 +41,26 @@ Ntimer.Config.Colors = {
     ["TaskText"] = Color(200, 200, 0)
 }
 
-// Modifier les icônes | https://github.com/WilliamVenner/gmpublisher
 
+/*
+// Modifier les icônes | https://github.com/WilliamVenner/gmpublisher 
 Ntimer.Config.Materials = {
-    ["Logo"] = Material("Noah/TimerPriser/logo.png")
+    ["Laverie"] = Material("Noah/TimerPriser/Laverie.png")
+    ["Sport"] = Material("Noah/TimerPriser/Sport.png")
+    ["Douche"] = Material("Noah/TimerPriser/Douche.png")
 }
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+    PROCHAINE MAJ !!! 
+*/

@@ -1,13 +1,3 @@
---[[---------------------------------------------------------
-   Name: noah_timer_hud
-   Author : Noah
-   Desc: Timer pour prison
-   Version : 1.2
-   Last update : 01/12/2024
-   Discord : noah_ballas
------------------------------------------------------------]]
-
-
 RX = RX or function(x) return x / 1920 * ScrW() end
 RY = RY or function(y) return y / 1080 * ScrH() end
 
@@ -21,7 +11,7 @@ surface.CreateFont("Noah:Text:Timer", {
     size = RY(26),
 })
 
-local currentTask = "Temps libre..."
+local currentTask = Ntimer.Config.Chomeur
 local lastTask = nil
 local taskTimer = Ntimer.Config.Seconde
 
